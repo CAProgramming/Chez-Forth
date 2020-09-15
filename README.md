@@ -17,5 +17,5 @@ $ chez --script __filename__
 ```forth
 : my_word 2 3 4 + + . ;
 ```
-- Whenever ```my_word``` is used, 2, 3, and 4 is pushed onto the stack, addition is applied twice, and the result is popped off and printed to stdout.
+- Whenever ```my_word``` is used, 2, 3, and 4 are pushed onto the stack, addition is applied twice, and the result is popped off and printed to stdout.
 - All actions in forth are based on calling words, or just pushing and popping elements from the stack. You should get the hang of it pretty quickly!
